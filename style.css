@@ -12,4 +12,5 @@ body {
 #div3 {
     width: 60%;
     background-color: green;
+    overflow: hidden;
 }
