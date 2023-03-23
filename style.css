@@ -42,3 +42,6 @@ body {
 	width: 60vw;
 	background-color: gray;
 }
+#image {
+	height: 100vh;
+}
