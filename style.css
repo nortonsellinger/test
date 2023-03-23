@@ -19,8 +19,8 @@ body {
     background-color: blue;
 }
 #content {
-    width: 10cm;
+    width: 2in;
     
-    max-height: 5cm;
+    max-height: 5in;
     background-color: magenta;
 }
