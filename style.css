@@ -20,7 +20,7 @@ body {
 }
 #content {
     width: 20%;
-    height: fixed;
-    height: 20%;
+    
+    max-height: 20%;
     background-color: magenta;
 }
