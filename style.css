@@ -4,6 +4,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: salmon;
+    font-size: calc(4vh - 1vw);
 }
 .flexheader {
     display: flex;
@@ -24,7 +25,7 @@ body {
 #content {
     width: 2in;
     
-    max-height: 5in;
+    height: 5%;
     background-color: magenta;
 }
 #_content {
