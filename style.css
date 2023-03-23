@@ -1,12 +1,15 @@
+@import "https://nortonsellinger.github.io/test/reset.css";
 body {
     width: 100%;
     margin: 0px;
+    padding: 0px;
     background-color: salmon;
 }
 .flexheader {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
+    box-sizing: border-box; /*самое важное свойство, благодаря нему padding включается в размер блока, и ничего не съезжает*/
     width: 100%;
     padding: 4px;
     background-color: black;
@@ -28,4 +31,14 @@ body {
 	margin: auto;
 	width: 10vh;
 	background-color: chocolate;
+}
+#block1 {
+	margin-right: auto;
+	width: 40vw;
+	background-color: silver;
+}
+#block2 {
+	margin-left: auto;
+	width: 60vw;
+	background-color: gray;
 }
