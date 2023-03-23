@@ -17,3 +17,8 @@ body {
 #headertitle {
     background-color: blue;
 }
+#content {
+    width: 20vw;
+    height: 20vh;
+    background-color: magenta;
+}
