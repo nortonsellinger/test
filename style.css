@@ -3,6 +3,10 @@
 
 	--DEVICE_RATIO;
 }
+@font-face {
+    font-family: ransom blanco zero;
+    src: url('https://nortonsellinger.github.io/Warehouse/FONTS/RansomBlancoZero.otf');
+}
 body {
     width: 100%;
     margin: 0px;
@@ -47,4 +51,19 @@ body {
 	width: 60vw;
 	background-color: gray;
 }
-
+#flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#fl1 {
+    background-color: yellow;
+    font-family: ransom blanco zero;
+    line-height: 1;
+    font-size: 20px;
+}
+#fl2 {
+    background-color: red;
+    height: 20px;
+}
