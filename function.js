@@ -12,3 +12,4 @@ function alertDeviceRatio() {
 }
 document.getElementById('button').addEventListener('click', alertDeviceRatio);
 
+document.querySelector('center').style.fontSize = 30 + 'px';

@@ -67,3 +67,8 @@ body {
     background-color: red;
     height: 20px;
 }
+center {
+    margin: auto;
+    background-color: aqua;
+    width: 250px;
+}
