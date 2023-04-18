@@ -7,10 +7,13 @@
     font-family: ransom blanco zero;
     src: url('https://nortonsellinger.github.io/Warehouse/FONTS/RansomBlancoZero.otf');
 }
-body {
-    width: 100%;
+* {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
     background-color: salmon;
     font-size: calc(4vmax - 5vmin);
 }
@@ -71,4 +74,16 @@ center {
     margin: auto;
     background-color: aqua;
     width: 250px;
+}
+
+.imgwrap {
+    width: 800px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.imgwrap img {
+    width: 50%
 }
