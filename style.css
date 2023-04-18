@@ -85,6 +85,6 @@ center {
     align-items: center;
     gap: 10px;
 }
-.imgwrap img {
+.imgwrap>img {
     width: 50%;
 }
